@@ -11,15 +11,15 @@
 
         <!-- Styles -->
         <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
+            body{
+                position: absolute;
+                width: 375px;
+                height: 812px;
+                left: 0px;
+                top: 0px;
 
+                background-image:-webkit-linear-gradient(to bottom, #ed213a 0%, #263238 100%);
+            }
             .full-height {
                 height: 100vh;
             }
