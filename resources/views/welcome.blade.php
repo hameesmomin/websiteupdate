@@ -15,10 +15,63 @@
                 position: absolute;
                 width: 375px;
                 height: 812px;
-                left: 0px;
-                top: 0px;
+                left: 0;
+                top: 0;
 
-                background-image:-webkit-linear-gradient(to bottom, #ed213a 0%, #263238 100%);
+                background-image:linear-gradient(to bottom, #ed213a 0%, #263238 100%);
+            }
+            #one{
+                position: absolute;
+                font-family: Montserrat, serif;
+                left: 57px;
+                right: 30px;
+                top: 138px;
+                bottom: 635px;
+                height: 39px;
+                width:275px;
+
+
+                font-style: normal;
+                font-weight: bold;
+                font-size: 32px;
+                line-height: 39px;
+                font-palette: dark;
+                /* identical to box height */
+            }
+
+            #two{
+                position: absolute;
+                left: 120px;
+                right: 113px;
+                top: 177px;
+                bottom: 616px;
+                height:19px;
+                width:142px;
+
+                font-family: Montserrat, serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 19px;
+            }
+
+            #three{
+                position: absolute;
+                width: 187px;
+                height: 18px;
+                left: 96px;
+                top: 304px;
+                bottom:490px;
+                right:92px;
+
+                font-family: Dubai, serif;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 18px;
+                /* identical to box height, or 100% */
+
+                text-align: center;
             }
             .full-height {
                 height: 100vh;
@@ -65,36 +118,24 @@
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
+            <div id="one">
+               FOUNDERS CLUB
             </div>
+            <br>
+            <div id="two">
+
+                BY LOCK&STOCK
+
+            </div>
+            <br>
+            <div id="three">
+                At Lock&Stock, we believe
+            </div>
+            <br>
+            <div id="four">
+
+            </div>
+            <br>
         </div>
     </body>
 </html>
