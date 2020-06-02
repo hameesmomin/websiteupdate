@@ -5,7 +5,7 @@
     <head>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1">
 
 
         <title>Laravel</title>
@@ -15,179 +15,218 @@
 
         <!-- Styles -->
         <style>
-            body{
+            body {
                 position: absolute;
-                width: 375px;
-                height: 812px;
+                width:100%;
+                height:100%;
                 left: 0;
                 top: 0;
-
+                min-width: 800px;
 
             }
+
             #one{
-                position: absolute;
-                font-family: Montserrat, serif;
-                left: 57px;
-                right: 30px;
-                top: 138px;
-                bottom: 635px;
-                height: 39px;
-                width:275px;
+                position:absolute;
+                width:26%;
+                height:5%;
+                top:4%;
+                left:5%;
+                bottom:91%;
+                right:69%;
 
 
-                font-style: normal;
-                font-weight: bold;
-                font-size: 32px;
-                line-height: 39px;
-                font-palette: dark;
-                /* identical to box height */
-                color: #FFFFFF;
             }
-
             #two{
                 position: absolute;
-                left: 120px;
-                right: 113px;
-                top: 177px;
-                bottom: 616px;
-                height:19px;
-                width:142px;
+                width: 11%;
+                height: 2%;
+                left: 38%;
+                top: 5%;
 
-                font-family: Montserrat, serif;
+                font-family: Dubai, sans-serif;
                 font-style: normal;
-                font-weight: bold;
-                font-size: 16px;
-                line-height: 19px;
-                color: #FFFFFF;
-            }
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 34px;
 
+                color: #FFFFFF;
+
+            }
             #three{
                 position: absolute;
-                width: 187px;
-                height: 18px;
-                left: 96px;
-                top: 304px;
-                bottom:490px;
-                right:92px;
+                width: 13%;
+                height: 2%;
+                left: 52%;
+                top: 5%;
 
-                font-family: Dubai, serif;
+                font-family: Dubai, sans-serif;
                 font-style: normal;
-                font-weight: 300;
-                font-size: 18px;
-                line-height: 18px;
-                /* identical to box height, or 100% */
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 34px;
 
-                text-align: center;
                 color: #FFFFFF;
+
             }
 
             #four{
                 position: absolute;
-                width: 299px;
-                height: 32px;
-                left:41px;
-                top: 329px;
-                right:35px;
-                bottom:451px;
+                width: 15%;
+                height: 2%;
+                left: 68%;
+                top: 5%;
 
-                font-family: Dubai, serif;
+                font-family: Dubai, sans-serif;
                 font-style: normal;
                 font-weight: normal;
-                font-size: 18px;
-                line-height: 18px;
-                /* or 100% */
+                font-size: 20px;
+                line-height: 34px;
 
-                text-align: center;
                 color: #FFFFFF;
-
             }
 
             #five{
                 position: absolute;
-                width: 208px;
-                height: 18px;
-                left: 85px;
-                top: 456px;
-                right: 82px;
-                bottom: 338px;
+                width:9%;
+                height: 2%;
+                left: 86%;
+                top: 5%;
 
-                font-family: Dubai, serif;
+                font-family: Dubai, sans-serif;
                 font-style: normal;
                 font-weight: normal;
-                font-size: 18px;
-                line-height: 18px;
-                /* identical to box height, or 100% */
+                font-size: 20px;
+                line-height: 34px;
 
-                display: flex;
-                align-items: center;
-                text-align: center;
                 color: #FFFFFF;
 
             }
-
             #six{
                 position: absolute;
-                width: 264px;
-                height: 48px;
-                left: 56px;
-                top: 615px;
-                bottom:149px;
-                right:55px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
+                left: 7%;
+                right: 45%;
+                top: 36%;
+                bottom: 55%;
 
-
-
-                background: #FFFFFF;
-                border-radius: 30px;
-            }
-
-            #even{
-                position: absolute;
-                width: 329px;
-                height: 84px;
-                left: 23px;
-                top: 379px;
-                bottom:350px;
-                right:23px;
-
-                font-family: Dubai, serif;
+                font-family: Montserrat, sans-serif;
                 font-style: normal;
-                font-weight: 300;
-                font-size: 18px;
-                line-height: 18px;
-                /* or 100% */
-
-                display: flex;
-                align-items: center;
-                text-align: center;
+                font-weight: bold;
+                font-size: 71px;
+                line-height: 86px;
 
                 color: #FFFFFF;
             }
 
             #seven{
                 position: absolute;
-                width: 375px;
-                height: 51px;
-                left: 0;
-                top: 737px;
-                bottom:24px;
+                left: 15%;
+                right: 57%;
+                top: 45%;
+                bottom: 50%;
 
-                background: linear-gradient(180deg, #F37335 0%, #FDC830 100%);
+                font-family: Montserrat, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 35px;
+                line-height: 43px;
+
+                color: #FFFFFF;
             }
+
             #eight{
                 position: absolute;
-                width: 375px;
-                height: 40px;
-                left: 0;
-                top: 772px;
-                background: rgba(243, 115, 53, 0.9);
-                transform: matrix(-1, 0, 0, 1, 0, 0);
-                
+                width:17%;
+                height:3%;
+                left: 68%;
+                top: 32%;
+                right: 15%;
+                bottom:65%;
+
+                font-family: Dubai, sans-serif;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 24px;
+                line-height: 24px;
+                /* or 100% */
+
+                text-align: center;
+
+                color: #FFFFFF;
+            }
+
+            #nine{
+                position: absolute;
+                width: 35%;
+                height: 3%;
+                left: 59%;
+                top: 36%;
+                bottom:61%;
+
+                font-family: Dubai, sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 24px;
+                line-height: 24px;
+                /* or 100% */
+
+                text-align: center;
+
+                color: #FFFFFF;
+            }
+
+            #ten{
+                position: absolute;
+                width: 38%;
+                height: 6%;
+                left: 57%;
+                top: 42%;
+
+                font-family: Dubai, sans-serif;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 24px;
+                line-height: 24px;
+                /* or 100% */
+
+                display: flex;
+                align-items: center;
+                text-align: center;
+
+                color: #FFFFFF;
+            }
+            #eleven{
+                position: absolute;
+                width: 19%;
+                height: 2%;
+                left: 70%;
+                top: 49%;
+                bottom:49%;
+
+                font-family: Dubai, sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 24px;
+                line-height: 24px;
+                /* identical to box height, or 100% */
+
+                display: flex;
+                align-items: center;
+                text-align: center;
+
+                color: #FFFFFF;
+            }
+
+            #twelve{
+                position: absolute;
+                width: 18%;
+                height: 5%;
+                left: 68%;
+                top: 56%;
 
                 background: #FFFFFF;
+                border-radius: 30px;
             }
+
 
             .full-height {
                 height: 100vh;
@@ -233,42 +272,61 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height" style="width:375px; height:812px; background: linear-gradient(180deg, #ED213A 0%, #93291E 47.4%, #263238 100%);">
+        <div class="flex-center position-ref full-height collapse" style="width:100%; height:100%;min-width:1000px; background: linear-gradient(180deg, #ED213A 0%, #93291E 47.4%, #263238 100%);">
             <div id="one">
-               FOUNDERS CLUB
+               <img src="/public/assets/L&Shead.png" alt="" style="height:49px;width:355px;">
             </div>
             <br>
             <div id="two">
 
-                BY LOCK&STOCK
+                <a href="" style="color:#FFFFFF">HOW IT WORKS</a>
 
             </div>
             <br>
             <div id="three">
-                At Lock&Stock, we believe
+                <a href="" style="color:#FFFFFF">PARTNER WITH US</a>
             </div>
             <br>
             <div id="four">
-                Innovation has the potential to change society
-            </div>
-            <br>
-            <div id="even">
-                This innovation will come from the people closest to technological change:
+                <a href="" style="color:#FFFFFF">BRAND AMBASSADOR</a>
             </div>
             <br>
             <div id="five">
-                Teenagers and Young Adults
+                <a href="" style="color:#FFFFFF">CONTACT US</a>
             </div>
             <br>
-            <div id="six" >
-                <button class=" btn btn-outline-danger rounded-pill" style="height:48px; width:264px;border-radius: 25px; "> I'm ready for lift-off! </button>
+            <section>
+            <div class="navbar container">
+            <div id="six">
+                <img src="/public/assets/FClogo.png" alt="" style="width:100%;height:100%">
             </div>
+            </div>
+            </section>
             <br>
-            <div id="seven">
+            <div id="seven" >
+                BY LOCK&STOCK
             </div>
             <br>
             <div id="eight">
+                At Lock&Stock, we believe
+            </div>
+            <br>
+            <div id="nine">
+                "Innovation has the potential to change society."
+            </div>
+            <br>
+            <div id="ten">
+                This innovation will come from the people closest to technological change:
+            </div>
+            <br>
+            <div id="eleven">
+                Teenagers and Young Adults
+            </div>
+            <br>
+            <div id="twelve" style=" display: flex;align-items: center;justify-content: center;">
+                <button class="btn btn-outline-danger" style="width:100%;height:100%;border-radius:25px;">I'm ready for lift-off!</button>
             </div>
         </div>
+
     </body>
 </html>
