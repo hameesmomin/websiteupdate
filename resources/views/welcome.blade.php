@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" xmlns:width="http://www.w3.org/1999/xhtml">
     <head>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <meta charset="utf-8">
@@ -13,9 +13,13 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 
         <!-- Styles -->
         <style>
+            html{
+                scroll-behavior: smooth;
+            }
             body {
                 position: absolute;
                 width:100%;
@@ -105,9 +109,9 @@
             #six{
                 position: absolute;
                 left: 7%;
-                right: 45%;
-                top: 36%;
-                bottom: 55%;
+
+                top: 28%;
+
 
                 font-family: Montserrat, sans-serif;
                 font-style: normal;
@@ -309,7 +313,7 @@
         <div class="flex-center position-ref full-height w3-row " style="width:100%; height:100%;min-width:auto; background: linear-gradient(180deg, #ED213A 0%, #93291E 47.4%, #263238 100%);">
 
             <div id="one" class="w3-mobile">
-               <img src="/public/assets/L&Shead.png" alt="" style="height:49px;width:355px;">
+               <img src="{{url('/assets/L&Shead.png')}}" alt="" style="height:100%;width:100%;">
             </div>
             <br>
             <div id="two" class="w3-mobile">
@@ -332,17 +336,12 @@
 
             <br>
 
-            <section>
-            <div class="navbar container w3-mobile">
+
+
             <div id="six">
-                <img src="/public/assets/FClogo.png" alt="" style="width:100%;height:100%">
+                <img src="{{url('/assets/FClogo.png')}}" alt="" style="width:128%;height:150%">
             </div>
-            </div>
-            </section>
-            <br>
-            <div id="seven" class="w3-mobile" >
-                BY LOCK&STOCK
-            </div>
+
             <br>
             <div id="eight" class="w3-mobile">
                 At Lock&Stock, we believe
@@ -361,14 +360,26 @@
             </div>
             <br>
             <div id="twelve" style=" display: flex;align-items: center;justify-content: center;" class="w3-mobile">
-                <button class="btn btn-outline-danger" style="width:100%;height:100%;border-radius:25px;">I'm ready for lift-off!</button>
+                <button data-anchor="#scroll" class="btn btn-outline-danger" onclick="window.location='{{ url("page2") }}'" style="height:100%;width:100%;border-radius:25px">I'm ready to lift-off! </button>
             </div>
             <br>
             <div id="thirteen">
-                <img src="/public/assets/waves.png" style="max-width:1440px;max-height:288px;" alt="">
+                <img src="{{url('/assets/waves.png ')}}" alt="" style="width:100%;height:100%">
             </div>
 
         </div>
+
+        <script>
+
+            $('[data-anchor]').click(function(e) {
+                e.preventDefault();
+                var goToAnchor = $(this).attr("data-anchor");
+                $('html, body').animate({
+                    scrollTop: $(goToAnchor).offset().top
+                }, 1000);
+            });
+
+        </script>
 
 
     </body>

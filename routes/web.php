@@ -23,4 +23,3 @@ Route::get('/page2', 'page2Controller@index')->name('page2');
 
 
 
-
