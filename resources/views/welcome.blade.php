@@ -32,43 +32,43 @@
 
             #one{
                 position:absolute;
-                width:26%;
-                height:5%;
-                top:4%;
-                left:5%;
-                bottom:91%;
-                right:69%;
+                width:26vw;
+                height:5vh;
+                top:4vh;
+                left:5vw;
+
+
 
 
             }
             #two{
                 position: absolute;
-                width: 11%;
-                height: 2%;
-                left: 38%;
-                top: 5%;
+                width: 11vw;
+                height: 2vh;
+                left: 38vw;
+                top: 5vh;
 
                 font-family: Dubai, sans-serif;
                 font-style: normal;
                 font-weight: normal;
-                font-size: 20px;
-                line-height: 34px;
+                font-size: 2vmin;
+                line-height: 3.5vmin;
 
                 color: #FFFFFF;
 
             }
             #three{
                 position: absolute;
-                width: 13%;
-                height: 2%;
-                left: 52%;
-                top: 5%;
+                width: 13vw;
+                height: 2vh;
+                left: 52vw;
+                top: 5vh;
 
                 font-family: Dubai, sans-serif;
                 font-style: normal;
                 font-weight: normal;
-                font-size: 20px;
-                line-height: 34px;
+                font-size: 2vmin;
+                line-height: 3.5vmin;
 
                 color: #FFFFFF;
 
@@ -76,48 +76,50 @@
 
             #four{
                 position: absolute;
-                width: 15%;
-                height: 2%;
-                left: 68%;
-                top: 5%;
+                width: 15vw;
+                height: 2vh;
+                left: 68vw;
+                top: 5vh;
 
                 font-family: Dubai, sans-serif;
                 font-style: normal;
                 font-weight: normal;
-                font-size: 20px;
-                line-height: 34px;
+                font-size: 2vmin;
+                line-height: 3.5vmin;
 
                 color: #FFFFFF;
             }
 
             #five{
                 position: absolute;
-                width:9%;
-                height: 2%;
-                left: 86%;
-                top: 5%;
+                width:9vw;
+                height: 2vh;
+                left: 86vw;
+                top: 5vh;
 
                 font-family: Dubai, sans-serif;
                 font-style: normal;
                 font-weight: normal;
-                font-size: 20px;
-                line-height: 34px;
+                font-size: 2vmin;
+                line-height: 3.5vmin;
 
                 color: #FFFFFF;
 
             }
             #six{
                 position: absolute;
-                left: 7%;
+                left: 7vw;
+                height:13vh;
+                width:48.5vw;
 
-                top: 28%;
+                top: 28vh;
 
 
                 font-family: Montserrat, sans-serif;
                 font-style: normal;
                 font-weight: bold;
-                font-size: 71px;
-                line-height: 86px;
+                font-size: 7vmin;
+                line-height: 8.7vmin;
 
                 color: #FFFFFF;
             }
@@ -127,7 +129,7 @@
                 left: 15%;
                 right: 57%;
                 top: 45%;
-                bottom: 50%;
+
 
                 font-family: Montserrat, sans-serif;
                 font-style: normal;
@@ -140,18 +142,18 @@
 
             #eight{
                 position: absolute;
-                width:17%;
-                height:3%;
-                left: 68%;
-                top: 32%;
-                right: 15%;
-                bottom:65%;
+                width:17vw;
+                height:3vh;
+                left: 68vw;
+                top: 32vh;
+
+
 
                 font-family: Dubai, sans-serif;
                 font-style: normal;
                 font-weight: 300;
-                font-size: 24px;
-                line-height: 24px;
+                font-size: 2vmin;
+                line-height: 2vmin;
                 /* or 100% */
 
                 text-align: center;
@@ -161,17 +163,17 @@
 
             #nine{
                 position: absolute;
-                width: 35%;
-                height: 3%;
-                left: 59%;
-                top: 36%;
-                bottom:61%;
+                width: 35vw;
+                height: 3vh;
+                left: 59vw;
+                top: 36vh;
+
 
                 font-family: Dubai, sans-serif;
                 font-style: normal;
                 font-weight: normal;
-                font-size: 24px;
-                line-height: 24px;
+                font-size: 2vmin;
+                line-height: 2vmin;
                 /* or 100% */
 
                 text-align: center;
@@ -181,16 +183,16 @@
 
             #ten{
                 position: absolute;
-                width: 38%;
-                height: 6%;
-                left: 57%;
-                top: 42%;
+                width: 38vw;
+                height: 6vh;
+                left: 63vw;
+                top: 42vh;
 
                 font-family: Dubai, sans-serif;
                 font-style: normal;
                 font-weight: 300;
-                font-size: 24px;
-                line-height: 24px;
+                font-size: 2vmin;
+                line-height: 2vmin;
                 /* or 100% */
 
                 display: flex;
@@ -201,17 +203,17 @@
             }
             #eleven{
                 position: absolute;
-                width: 19%;
-                height: 2%;
-                left: 70%;
-                top: 49%;
-                bottom:49%;
+                width: 19vw;
+                height: 2vh;
+                left: 72vw;
+                top: 49vh;
+
 
                 font-family: Dubai, sans-serif;
                 font-style: normal;
                 font-weight: normal;
-                font-size: 24px;
-                line-height: 24px;
+                font-size: 2vmin;
+                line-height: 2vmin;
                 /* identical to box height, or 100% */
 
                 display: flex;
@@ -223,22 +225,22 @@
 
             #twelve{
                 position: absolute;
-                width: 18%;
-                height: 5%;
-                left: 68%;
-                top: 56%;
+                width: 18vw;
+                height: 5vh;
+                left: 68vw;
+                top: 56vh;
 
                 background: #FFFFFF;
-                border-radius: 30px;
+                border-radius: 3vmin;
             }
             #thirteen{
                 position:absolute;
-                top:71%;
-                width:100%;
+
+                width:100vw;
                 bottom:0;
-                height:29%;
+                height:29vh;
                 left:0;
-                right:0;
+
             }
 
 
@@ -312,8 +314,8 @@
     <body>
         <div class="flex-center position-ref full-height w3-row " style="width:100%; height:100%;min-width:auto; background: linear-gradient(180deg, #ED213A 0%, #93291E 47.4%, #263238 100%);">
 
-            <div id="one" class="w3-mobile">
-               <img src="{{url('/assets/L&Shead.png')}}" alt="" style="height:100%;width:100%;">
+            <div id="one" >
+               <img src="{{url('/assets/L&Shead.png')}}" alt="" style="height:5vh;width:26vw;">
             </div>
             <br>
             <div id="two" class="w3-mobile">
@@ -339,7 +341,7 @@
 
 
             <div id="six">
-                <img src="{{url('/assets/FClogo.png')}}" alt="" style="width:128%;height:150%">
+                <img src="{{url('/assets/FClogo.png')}}" alt="" style="height:17vh;width:48.5vw;">
             </div>
 
             <br>
@@ -360,11 +362,11 @@
             </div>
             <br>
             <div id="twelve" style=" display: flex;align-items: center;justify-content: center;" class="w3-mobile">
-                <button data-anchor="#scroll" class="btn btn-outline-danger" onclick="window.location='{{ url("page2") }}'" style="height:100%;width:100%;border-radius:25px">I'm ready to lift-off! </button>
+                <button data-anchor="#scroll" class="btn btn-outline-danger" onclick="window.location='{{ url("page2") }}'" style="height:5vh;width:18vw;border-radius:25vmin;font-size:2vmin;">I'm ready to lift-off! </button>
             </div>
             <br>
             <div id="thirteen">
-                <img src="{{url('/assets/waves.png ')}}" alt="" style="width:100%;height:100%">
+                <img src="{{url('/assets/waves.png ')}}" alt="" style="width:100vw;bottom:0vh;height:29vh;">
             </div>
 
         </div>

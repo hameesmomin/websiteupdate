@@ -28,16 +28,16 @@
         }
         #one{
             position: absolute;
-            width: 31%;
-            height: 6%;
-            left: 39%;
-            top: 10%;
+            width: 31vw;
+            height: 6vh;
+            left: 38.5vw;
+            top: 10vh;
 
             font-family: Dubai, serif;
             font-style: normal;
             font-weight: normal;
-            font-size: 4vh;
-            line-height: 6vh;
+            font-size: 4vmin;
+            line-height: 4.5vmin;
             /* identical to box height, or 157% */
 
 
@@ -48,16 +48,16 @@
 
         #two{
             position: absolute;
-            width: 38%;
-            height: 4%;
-            left: 31%;
-            top: 17%;
+            width: 38vw;
+            height: 4vh;
+            left: 32vw;
+            top: 17vh;
 
             font-family: Dubai, serif;
             font-style: normal;
             font-weight: 300;
-            font-size: 2vh;
-            line-height: 4vh;
+            font-size: 2vmin;
+            line-height: 4vmin;
             /* identical to box height, or 150% */
 
             text-align: center;
@@ -66,16 +66,16 @@
         }
         #three{
             position: absolute;
-            width: 61%;
-            height: 4%;
-            left: 19%;
-            top: 21%;
+            width: 61vw;
+            height: 4vh;
+            left: 20.5vw;
+            top: 21vh;
 
             font-family: Dubai, serif;
             font-style: normal;
             font-weight: 300;
-            font-size: 2vh;
-            line-height: 4vh;
+            font-size: 2vmin;
+            line-height: 4vmin;
             /* identical to box height, or 150% */
 
             text-align: center;
@@ -85,16 +85,16 @@
         }
         #four{
             position: absolute;
-            width: 31%;
-            height: 2%;
-            left: 37%;
-            top: 31%;
+            width: 31vw;
+            height: 2vh;
+            left: 36.5vw;
+            top: 31vh;
 
             font-family: Dubai, serif;
             font-style: normal;
             font-weight: normal;
-            font-size: 3vh;
-            line-height: 2vh;
+            font-size: 3vmin;
+            line-height: 2vmin;
             /* identical to box height, or 89% */
 
             display: flex;
@@ -108,23 +108,23 @@
             position:absolute;
             height:25vh;
             width:31vw;
-            left:35%;
-            top:35%;
+            left:35vw;
+            top:35vh;
 
 
         }
         #six{
             position: absolute;
-            width: 18%;
-            height: 2%;
-            left: 43%;
-            top: 60%;
+            width: 18vw;
+            height: 2vh;
+            left: 43vw;
+            top: 62vh;
 
             font-family: Dubai, serif;
             font-style: normal;
             font-weight: normal;
-            font-size: 2vh;
-            line-height: 2vh;
+            font-size: 2.3vmin;
+            line-height: 2vmin;
             /* identical to box height, or 67% */
 
 
@@ -133,14 +133,15 @@
         }
         #seven{
             position: absolute;
-            width: 2%;
-            height: 3%;
-            left: 21%;
-            top: 65%;
+            width: 2vw;
+            height: 3vh;
+            left: 21vw;
+            top: 65vh;
 
-            border: 0.2vh solid #FFFFFF;
+            border: 0.2vmin solid #FFFFFF;
             box-sizing: border-box;
-            border-radius: 3vh;
+            border-radius: 50px;
+            font-size:2vmin;
 
             display: flex;
             align-items: center;
@@ -149,16 +150,16 @@
         }
         #eight{
             position: absolute;
-            width: 21%;
-            height: 5%;
-            left: 26%;
-            top: 65%;
+            width: 21vw;
+            height: 5vh;
+            left: 26vw;
+            top: 65vh;
 
             font-family: Dubai, serif;
             font-style: normal;
             font-weight: 300;
-            font-size: 2vh;
-            line-height: 2vh;
+            font-size: 2vmin;
+            line-height: 2vmin;
             /* or 100% */
 
 
@@ -167,14 +168,15 @@
         }
         #nine{
             position: absolute;
-            width: 2%;
-            height: 3%;
-            left: 50%;
-            top: 65%;
+            width: 2vw;
+            height: 3vh;
+            left: 50vw;
+            top: 65vh;
 
-            border: 0.2vh solid #FFFFFF;
+            border: 0.2vmin solid #FFFFFF;
             box-sizing: border-box;
-            border-radius: 3vh;
+            border-radius: 4vmin;
+            font-size:2vmin;
 
             display: flex;
             align-items: center;
@@ -182,33 +184,33 @@
         }
         #ten{
             position: absolute;
-            width: 24%;
-            height: 8%;
-            left: 55%;
-            top: 65%;
+            width: 24vw;
+            height: 8vh;
+            left: 55vw;
+            top: 65vh;
 
             font-family: Dubai, serif;
             font-style: normal;
             font-weight: 300;
-            font-size: 2vh;
-            line-height: 2vh;
+            font-size: 2vmin;
+            line-height: 2vmin;
             /* or 100% */
 
 
             color: #FFFFFF;
         }
         #eleven{
-            height:18%;
-            width:100%;
-            top:82%;
+            height:18vh;
+            width:100vw;
+            top:82vh;
             left:0;
             bottom:0;
             position:absolute;
         }
         #twelve{
             position: absolute;
-            width: 3vw;
-            height: 3vh;
+            width: 3vmin;
+            height: 3vmin;
             left: 49%;
             top: 77%;
 
@@ -217,16 +219,16 @@
         }
         #a{
             position: absolute;
-            width: 38%;
-            height: 4%;
-            left: 32%;
-            top: 112%;
+            width: 38vw;
+            height: 4vh;
+            left: 32vw;
+            top: 112vh;
 
             font-family: Dubai, serif;
             font-style: normal;
             font-weight: normal;
-            font-size: 4vh;
-            line-height: 3vh;
+            font-size: 4vmin;
+            line-height: 3vmin;
             /* identical to box height, or 95% */
 
             text-align: center;
@@ -237,16 +239,16 @@
 
         #b{
             position: absolute;
-            width: 22%;
-            height: 3%;
-            left: 40%;
-            top: 117%;
+            width: 22vw;
+            height: 3vh;
+            left: 40.5vw;
+            top: 117vh;
 
             font-family: Dubai, serif;
             font-style: normal;
             font-weight: 300;
-            font-size: 3vh;
-            line-height: 3vh;
+            font-size: 3vmin;
+            line-height: 3vmin;
             /* identical to box height, or 107% */
 
             display: flex;
@@ -256,24 +258,24 @@
             color: #FFFFFF;
         }
         #c{
-            left:39%;
-            top:124%;
-            width:24%;
-            height:35%;
+            left:39vw;
+            top:124vh;
+            width:24vw;
+            height:35vh;
             position:absolute;
         }
         #d{
             position: absolute;
-            width: 41%;
-            height: 3%;
-            left: 37%;
-            top: 163%;
+            width: 41vw;
+            height: 3vh;
+            left: 35.5vw;
+            top: 163vh;
 
             font-family: Dubai, serif;
             font-style: normal;
             font-weight: 300;
-            font-size: 3vh;
-            line-height: 3vh;
+            font-size: 3vmin;
+            line-height: 3vmin;
             /* identical to box height, or 98% */
 
             display: flex;
@@ -285,16 +287,16 @@
         }
         #e{
             position: absolute;
-            width: 37%;
-            height: 6%;
-            left: 38%;
-            top: 170%;
+            width: 37vw;
+            height: 6vh;
+            left: 36.5vw;
+            top: 170vh;
 
             font-family: Dubai, serif;
             font-style: normal;
             font-weight: 500;
-            font-size: 5vh;
-            line-height: 6vh;
+            font-size: 5vmin;
+            line-height: 6vmin;
             /* identical to box height, or 131% */
 
             display: flex;
@@ -304,6 +306,41 @@
             color: #FDC830;
 
         }
+        #f{
+            position: absolute;
+            width: 3vmin;
+            height: 3vmin;
+            left: 49vw;
+            top: 177vh;
+        }
+        #g{
+
+            height:18vh;
+            width:100vw;
+            top:182vh;
+            left:0;
+            bottom:0;
+            position:absolute;
+        }
+        #h{
+            position: absolute;
+            width: 454px;
+            height: 44px;
+            left: 492px;
+            top: 76px;
+
+            font-family: Dubai, serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 55px;
+            line-height: 44px;
+            /* identical to box height, or 80% */
+
+            text-align: center;
+
+            color: #263238;
+        }
+
 
     </style>
 
@@ -350,7 +387,7 @@
            </div>
            <br>
            <div id="eleven">
-               <img src="{{url('/assets/waves.png ')}}" alt="" style="width:100%;height:100%">
+               <img src="{{url('/assets/waves.png ')}}" alt="" style="width:100vw;height:18vh;">
            </div>
            <br>
            <div id="twelve">
@@ -377,7 +414,23 @@
            <div id="e">
                We will put you in that 2%
            </div>
+           <br>
+           <div id="f">
+               <button class="btn btn-primary" style="background-color:transparent;border:none; font-size:35px;"><b>V</b></button>
+           </div>
+           <br>
+           <div id="g">
+
+                   <img src="{{url('/assets/waves.png ')}}" alt="" style="width:100vw;height:18vh;">
+
+           </div>
        </div>
+       <div class="flex-center position-ref full-height " style="width:100%; height:100%;min-width:auto;" >
+           <div>
+               
+           </div>
+       </div>
+
 
 
 
