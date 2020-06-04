@@ -388,6 +388,60 @@
 
         }
         #l{
+            position: absolute;
+            width: 26vw;
+            height: 32vh;
+            left: 14vw;
+            top: 236.5vh;
+
+            background: #F5F5F5;
+        }
+        #m{
+            position: absolute;
+            width: 26vw;
+            height: 32vh;
+            left: 39vw;
+            top: 236.5vh;
+
+            background: #F5F5F5;
+        }
+        #n{
+            position: absolute;
+            width: 26vw;
+            height: 32vh;
+            left: 65.6vw;
+            top: 236.5vh;
+
+            background: #F5F5F5;
+        }
+        #o{
+            position: absolute;
+            width: 2.5vw;
+            height: 4.6vh;
+            left: 18.6vw;
+            top: 270vh;
+
+            border: 0.20vmin solid #6B6B6B;
+            box-sizing: border-box;
+            border-radius: 30px;
+
+        }
+        #p{
+            position: absolute;
+            width: 126px;
+            height: 61px;
+            left: 325px;
+            top: ;
+
+            font-family: Dubai, serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            line-height: 61px;
+            /* identical to box height */
+
+
+            color: #ED213A;
 
         }
 
@@ -493,6 +547,27 @@
            <div id="k">
                You bring the heart and the brain
            </div>
+           <br>
+           <div id="l">
+               <img src="{{url('/assets/Frame 54@2x.png ')}}" alt="" style="width:20vw;height:28vh;">
+           </div>
+           <br>
+           <div id="m">
+               <img src="{{url('/assets/Frame 55.png ')}}" alt="" style="width:20vw;height:28vh;">
+           </div>
+           <br>
+           <div id="n">
+               <img src="{{url('/assets/Frame 56@2x.png ')}}" alt="" style="width:14vw;height:28vh;">
+           </div>
+           <br>
+           <div id="o">
+               1
+           </div>
+           <br>
+           <div id="p">
+
+           </div>
+
        </div>
    </body>
 </html>
