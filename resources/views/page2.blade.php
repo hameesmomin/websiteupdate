@@ -36,8 +36,8 @@
             font-family: Dubai, serif;
             font-style: normal;
             font-weight: normal;
-            font-size: 36px;
-            line-height: 57px;
+            font-size: 4vh;
+            line-height: 6vh;
             /* identical to box height, or 157% */
 
 
@@ -56,8 +56,8 @@
             font-family: Dubai, serif;
             font-style: normal;
             font-weight: 300;
-            font-size: 24px;
-            line-height: 36px;
+            font-size: 2vh;
+            line-height: 4vh;
             /* identical to box height, or 150% */
 
             text-align: center;
@@ -74,8 +74,8 @@
             font-family: Dubai, serif;
             font-style: normal;
             font-weight: 300;
-            font-size: 24px;
-            line-height: 36px;
+            font-size: 2vh;
+            line-height: 4vh;
             /* identical to box height, or 150% */
 
             text-align: center;
@@ -93,8 +93,8 @@
             font-family: Dubai, serif;
             font-style: normal;
             font-weight: normal;
-            font-size: 28px;
-            line-height: 21px;
+            font-size: 3vh;
+            line-height: 2vh;
             /* identical to box height, or 89% */
 
             display: flex;
@@ -106,8 +106,8 @@
         }
         #five{
             position:absolute;
-            height:25%;
-            width:31%;
+            height:25vh;
+            width:31vw;
             left:35%;
             top:35%;
 
@@ -123,8 +123,8 @@
             font-family: Dubai, serif;
             font-style: normal;
             font-weight: normal;
-            font-size: 24px;
-            line-height: 16px;
+            font-size: 2vh;
+            line-height: 2vh;
             /* identical to box height, or 67% */
 
 
@@ -138,9 +138,9 @@
             left: 21%;
             top: 65%;
 
-            border: 2px solid #FFFFFF;
+            border: 0.2vh solid #FFFFFF;
             box-sizing: border-box;
-            border-radius: 27px;
+            border-radius: 3vh;
 
             display: flex;
             align-items: center;
@@ -157,8 +157,8 @@
             font-family: Dubai, serif;
             font-style: normal;
             font-weight: 300;
-            font-size: 24px;
-            line-height: 24px;
+            font-size: 2vh;
+            line-height: 2vh;
             /* or 100% */
 
 
@@ -172,9 +172,9 @@
             left: 50%;
             top: 65%;
 
-            border: 2px solid #FFFFFF;
+            border: 0.2vh solid #FFFFFF;
             box-sizing: border-box;
-            border-radius: 27px;
+            border-radius: 3vh;
 
             display: flex;
             align-items: center;
@@ -190,8 +190,8 @@
             font-family: Dubai, serif;
             font-style: normal;
             font-weight: 300;
-            font-size: 24px;
-            line-height: 24px;
+            font-size: 2vh;
+            line-height: 2vh;
             /* or 100% */
 
 
@@ -207,14 +207,104 @@
         }
         #twelve{
             position: absolute;
-            width: 3%;
-            height: 3%;
+            width: 3vw;
+            height: 3vh;
             left: 49%;
             top: 77%;
 
 
 
         }
+        #a{
+            position: absolute;
+            width: 38%;
+            height: 4%;
+            left: 32%;
+            top: 112%;
+
+            font-family: Dubai, serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 4vh;
+            line-height: 3vh;
+            /* identical to box height, or 95% */
+
+            text-align: center;
+
+            color: #FFFFFF;
+
+        }
+
+        #b{
+            position: absolute;
+            width: 22%;
+            height: 3%;
+            left: 40%;
+            top: 117%;
+
+            font-family: Dubai, serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 3vh;
+            line-height: 3vh;
+            /* identical to box height, or 107% */
+
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            color: #FFFFFF;
+        }
+        #c{
+            left:39%;
+            top:124%;
+            width:24%;
+            height:35%;
+            position:absolute;
+        }
+        #d{
+            position: absolute;
+            width: 41%;
+            height: 3%;
+            left: 37%;
+            top: 163%;
+
+            font-family: Dubai, serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 3vh;
+            line-height: 3vh;
+            /* identical to box height, or 98% */
+
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            color: #FFFFFF;
+
+        }
+        #e{
+            position: absolute;
+            width: 37%;
+            height: 6%;
+            left: 38%;
+            top: 170%;
+
+            font-family: Dubai, serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 5vh;
+            line-height: 6vh;
+            /* identical to box height, or 131% */
+
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            color: #FDC830;
+
+        }
+
     </style>
 
     <body>
@@ -236,7 +326,7 @@
            </div>
            <br>
            <div id="five">
-               <img src="{{url('/assets/sponsor.PNG')}}" alt="" style="width:100%;height:222px;">
+               <img src="{{url('/assets/sponsor.PNG')}}" alt="" style="height:25vh;width:31vw;">
            </div>
            <br>
            <div id="six">
@@ -267,6 +357,28 @@
                <button class="btn btn-primary" style="background-color:transparent;border:none; font-size:35px;"><b>V</b></button>
            </div>
        </div>
+       <div class="flex-center position-ref full-height " style="width:100%; height:100%;min-width:auto; background: linear-gradient(180deg, #ED213A 0%, #93291E 47.4%, #263238 100%)">
+           <div id="a">
+               We understand how this game works.
+           </div>
+           <br>
+           <div id="b">
+               Frankly, because we’ve been there
+           </div>
+           <br>
+           <div id="c">
+               <img src="{{url('/assets/Group 1119.png ')}}" alt="" style="width:100%;height:100%">
+           </div>
+           <br>
+           <div id="d">
+               And those that take-off; don’t just fly - they soar
+           </div>
+           <br>
+           <div id="e">
+               We will put you in that 2%
+           </div>
+       </div>
+
 
 
    </body>
