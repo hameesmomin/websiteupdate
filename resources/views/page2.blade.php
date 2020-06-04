@@ -108,7 +108,7 @@
             position:absolute;
             height:25vh;
             width:31vw;
-            left:35vw;
+            left:37.5vw;
             top:35vh;
 
 
@@ -217,6 +217,14 @@
 
 
         }
+        #thirteen{
+            height:14vh;
+            width:100vw;
+            top:82vh;
+            left:0;
+            bottom:0;
+            position:absolute;
+        }
         #a{
             position: absolute;
             width: 38vw;
@@ -324,22 +332,65 @@
         }
         #h{
             position: absolute;
-            width: 454px;
-            height: 44px;
-            left: 492px;
-            top: 76px;
+            width: 64.5vh;
+            height: 6vh;
+            left: 34vw;
+            top: 210vh;
 
             font-family: Dubai, serif;
             font-style: normal;
             font-weight: 500;
-            font-size: 55px;
-            line-height: 44px;
+            font-size: 7vmin;
+            line-height: 5.6vmin;
             /* identical to box height, or 80% */
 
             text-align: center;
 
             color: #263238;
         }
+        #i{
+            height:18vh;
+            width:100vw;
+            top:182vh;
+            left:0;
+            bottom:0;
+            position:absolute;
+        }
+        #j{
+            position: absolute;
+            width: 42vw;
+            height: 0;
+            left: 29vw;
+            top: 217vh;
+
+            border: 2px solid #263238;
+
+        }
+        #k{
+            position: absolute;
+            width: 40.6vw;
+            height: 5.6vh;
+            left: 32vw;
+            top: 220vh;
+
+            font-family: Dubai, serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 5.6vh;
+            line-height: 5.6vh;
+            /* identical to box height, or 100% */
+
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            color: #6B6B6B;
+
+        }
+        #l{
+
+        }
+
 
 
     </style>
@@ -363,7 +414,7 @@
            </div>
            <br>
            <div id="five">
-               <img src="{{url('/assets/sponsor.PNG')}}" alt="" style="height:25vh;width:31vw;">
+               <img src="{{url('/assets/sponsor.PNG')}}" alt="" style="height:25vh;width:26vw;">
            </div>
            <br>
            <div id="six">
@@ -387,11 +438,15 @@
            </div>
            <br>
            <div id="eleven">
-               <img src="{{url('/assets/waves.png ')}}" alt="" style="width:100vw;height:18vh;">
+               <img src="{{url('/assets/waves.png ')}}" alt="" style="width:100vw;height:19vh;">
            </div>
            <br>
            <div id="twelve">
                <button class="btn btn-primary" style="background-color:transparent;border:none; font-size:35px;"><b>V</b></button>
+           </div>
+           <br>
+           <div id="thirteen">
+               <img src="{{url('/assets/Vector.png ')}}" alt="" style="width:100vw;height:12.5vh;top:7vh;z-index:2;position:absolute">
            </div>
        </div>
        <div class="flex-center position-ref full-height " style="width:100%; height:100%;min-width:auto; background: linear-gradient(180deg, #ED213A 0%, #93291E 47.4%, #263238 100%)">
@@ -420,19 +475,24 @@
            </div>
            <br>
            <div id="g">
-
-                   <img src="{{url('/assets/waves.png ')}}" alt="" style="width:100vw;height:18vh;">
-
+               <img src="{{url('/assets/waves.png ')}}" alt="" style="width:100vw;height:24.5vh;bottom:0;z-index:1">
+           </div>
+           <div id="i">
+               <img src="{{url('/assets/Vector.png ')}}" alt="" style="width:100vw;height:12.5vh;top:13vh;z-index:2;position:absolute">
            </div>
        </div>
-       <div class="flex-center position-ref full-height " style="width:100%; height:100%;min-width:auto;" >
-           <div>
-               
+       <div class="flex-center position-ref full-height " style="width:100%; height:100%;" >
+           <div id="h">
+               HOW THIS WORKS
+           </div>
+           <br>
+           <div id="j">
+
+           </div>
+           <br>
+           <div id="k">
+               You bring the heart and the brain
            </div>
        </div>
-
-
-
-
    </body>
 </html>
