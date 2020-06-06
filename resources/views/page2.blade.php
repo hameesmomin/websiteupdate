@@ -334,7 +334,7 @@
             position: absolute;
             width: 64.5vh;
             height: 6vh;
-            left: 34vw;
+            left: 36vw;
             top: 210vh;
 
             font-family: Dubai, serif;
@@ -344,7 +344,7 @@
             line-height: 5.6vmin;
             /* identical to box height, or 80% */
 
-            text-align: center;
+
 
             color: #263238;
         }
@@ -376,8 +376,8 @@
             font-family: Dubai, serif;
             font-style: normal;
             font-weight: 300;
-            font-size: 5.6vh;
-            line-height: 5.6vh;
+            font-size: 5.6vmin;
+            line-height: 5.6vmin;
             /* identical to box height, or 100% */
 
             display: flex;
@@ -428,20 +428,467 @@
         }
         #p{
             position: absolute;
-            width: 126px;
-            height: 61px;
-            left: 325px;
-            top: ;
+            width: 8.75vw;
+            height: 8vh;
+            left: 22.5vw;
+            top: 268.2vh;
 
             font-family: Dubai, serif;
             font-style: normal;
             font-weight: normal;
-            font-size: 36px;
-            line-height: 61px;
+            font-size: 4.6vmin;
+            line-height: 8vmin;
             /* identical to box height */
 
 
             color: #ED213A;
+
+        }
+        #q{
+            position: absolute;
+            width: 23vw;
+            height: 7.7vh;
+            left: 13vw;
+            top: 277vh;
+
+            font-family: Dubai, serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 3vmin;
+            line-height: 3vmin;
+            /* or 100% */
+
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            color: #6B6B6B;
+
+        }
+        #r{
+            position: absolute;
+            width: 2.5vw;
+            height: 4.6vh;
+            left: 43.2vw;
+            top: 268.7vh;
+
+            border: 0.20vmin solid #6B6B6B;
+            box-sizing: border-box;
+            border-radius: 30px;
+
+        }
+        #s{
+            position: absolute;
+            width: 10.5vw;
+            height: 8vh;
+            left: 47vw;
+            top: 267vh;
+
+            font-family: Dubai, serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 4.6vmin;
+            line-height: 8vmin;
+            /* identical to box height */
+
+
+            color: #ED213A;
+        }
+        #t{
+            position: absolute;
+            width: 30vw;
+            height: 7.7vh;
+            left: 41vw;
+            top: 276.8vh;
+
+            font-family: Dubai, serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 3vmin;
+            line-height: 3vmin;
+            /* or 100% */
+
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            color: #263238;
+
+        }
+        #u{
+            position: absolute;
+            width: 2.5vw;
+            height: 4.6vh;
+            left: 68vw;
+            top: 269vh;
+
+            border: 0.20vmin solid #6B6B6B;
+            box-sizing: border-box;
+            border-radius: 30px;
+
+        }
+        #v{
+            position: absolute;
+            width: 116vw;
+            height: 7.8vh;
+            left: 72vw;
+            top: 267.3vh;
+
+            font-family: Dubai, serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 4.6vmin;
+            line-height: 8vmin;
+            /* identical to box height */
+
+
+            color: #ED213A;
+
+        }
+        #w{
+            position: absolute;
+            width: 30vw;
+            height: 7.7vh;
+            left: 64vw;
+            top: 276.9vh;
+
+            font-family: Dubai, serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 3vmin;
+            line-height: 3vmin;
+            /* or 100% */
+
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            color: #263238;
+        }
+        #x{
+            position: absolute;
+            width: 31.5vw;
+            height: 5.5vh;
+            left: 36vw;
+            top: 320.7vh;
+
+            font-family: Dubai, serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 6.8vmin;
+            line-height: 5.5vmin;
+            /* identical to box height, or 80% */
+
+
+
+            color: #FFFFFF;
+
+        }
+        #y{
+            position: absolute;
+            width: 42.2vw;
+            height: 0;
+            left: 29vw;
+            top: 328.8vh;
+
+            border: 0.20vmin solid #FFFFFF;
+        }
+        #z{
+            position: absolute;
+            width: 5.3vw;
+            height: 9.5vh;
+            left: 19vw;
+            top: 344.3vh;
+
+            border: 0.10vmin solid #FFFFFF;
+            box-sizing: border-box;
+
+        }
+        #aa{
+            position: absolute;
+            width: 40.5vw;
+            height: 5.5vh;
+            left: 33.2vw;
+            top: 330.6vh;
+
+            font-family: Dubai, serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 5.5vmin;
+            line-height: 5.5vmin;
+            /* identical to box height, or 100% */
+
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            color: #FFFFFF;
+        }
+        #ab{
+            position: absolute;
+            width: 5.3vw;
+            height: 9.5vh;
+            left: 52.1vw;
+            top: 344.3vh;
+
+            border: 0.10vmin solid #FFFFFF;
+            box-sizing: border-box;
+        }
+        #ac{
+            position: absolute;
+            width: 5.3vw;
+            height: 9.5vh;
+            left: 19vw;
+            top: 363.4vh;
+
+            border: 0.10vmin solid #FFFFFF;
+            box-sizing: border-box;
+
+        }
+        #ad{
+            position: absolute;
+            width: 5.3vw;
+            height: 9.5vh;
+            left: 52.1vw;
+            top: 363.4vh;
+
+            border: 0.10vmin solid #FFFFFF;
+            box-sizing: border-box;
+
+        }
+        #ae{
+            position: absolute;
+            width: 5.3vw;
+            height: 9.5vh;
+            left: 19vw;
+            top: 386.2vh;
+
+            border: 0.10vmin solid #FFFFFF;
+            box-sizing: border-box;
+        }
+        #af{
+            position: absolute;
+            width: 5.3vw;
+            height: 9.5vh;
+            left: 52.1vw;
+            top: 386.2vh;
+
+            border: 0.10vmin solid #FFFFFF;
+            box-sizing: border-box;
+        }
+        #ag{
+            position: absolute;
+            width: 12.5vw;
+            height: 3.8vh;
+            left: 25.7vw;
+            top: 344.3vh;
+
+            font-family: Dubai, serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 3vmin;
+            line-height: 3.9vmin;
+            /* identical to box height, or 133% */
+
+
+            color: #FFFFFF;
+
+        }
+        #ah{
+            position: absolute;
+            width: 22.2vw;
+            height: 8vh;
+            left: 25.7vw;
+            top: 349.7vh;
+
+            font-family: Dubai, serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 2.2vmin;
+            line-height: 2.2vmin;
+            /* or 100% */
+
+
+            color: #FFFFFF;
+
+        }
+        #ai{
+            position: absolute;
+            width: 13.4vw;
+            height: 3.8vh;
+            left: 59vw;
+            top: 344.3vh;
+
+            font-family: Dubai, serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 3vmin;
+            line-height: 3.9vmin;
+            /* identical to box height, or 133% */
+
+
+            color: #FFFFFF;
+
+        }
+        #aj{
+            position: absolute;
+            width: 22.2vw;
+            height: 6.8vh;
+            left: 59vw;
+            top: 349.7vh;
+
+            font-family: Dubai, serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 2.2vmin;
+            line-height: 2.2vmin;
+            /* or 100% */
+
+
+            color: #FFFFFF;
+
+        }
+        #ak{
+            position: absolute;
+            width: 15.8vw;
+            height: 3.8vh;
+            left: 25.7vw;
+            top: 363.4vh;
+
+            font-family: Dubai, serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 3vmin;
+            line-height: 3.9vmin;
+            /* identical to box height, or 133% */
+
+
+            color: #FFFFFF;
+
+        }
+        #al{
+            position: absolute;
+            width: 22.2vw;
+            height: 12vh;
+            left: 25.7vw;
+            top: 368.7vh;
+
+            font-family: Dubai, serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 2.2vmin;
+            line-height: 2.2vmin;
+            /* or 100% */
+
+
+            color: #FFFFFF;
+        }
+        #am{
+            position: absolute;
+            width: 13.3vw;
+            height: 3.8vh;
+            left: 59vw;
+            top: 363.4vh;
+
+            font-family: Dubai, serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 3vmin;
+            line-height: 3.9vmin;
+            /* identical to box height, or 133% */
+
+
+            color: #FFFFFF;
+
+        }
+        #an{
+            position: absolute;
+            width: 22.2vw;
+            height: 9.4vh;
+            left: 59vw;
+            top: 368.7vh;
+
+            font-family: Dubai, serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 2.2vmin;
+            line-height: 2.2vmin;
+            /* or 100% */
+
+
+            color: #FFFFFF;
+
+        }
+        #ao{
+            position: absolute;
+            width: 9.4vw;
+            height: 3.8vh;
+            left: 25.7vw;
+            top:386.3vh;
+
+            font-family: Dubai, serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 3vmin;
+            line-height: 3.9vmin;
+            /* identical to box height, or 133% */
+
+
+            color: #FFFFFF;
+
+        }
+        #ap{
+            position: absolute;
+            width: 22.2vw;
+            height: 15.25vh;
+            left: 25.7vw;
+            top: 391.8vh;
+
+            font-family: Dubai, serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 2.2vmin;
+            line-height: 2.2vmin;
+            /* or 100% */
+
+
+            color: #FFFFFF;
+
+        }
+        #aq{
+            position: absolute;
+            width: 13.7vw;
+            height: 3.8vh;
+            left: 59vw;
+            top: 386.3vh;
+
+            font-family: Dubai, serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 3vmin;
+            line-height: 3.9vmin;
+            /* identical to box height, or 133% */
+
+
+            color: #FFFFFF;
+
+        }
+        #ar{
+            position: absolute;
+            width: 22.2vw;
+            height: 6vh;
+            left: 59vw;
+            top: 391.8vh;
+
+            font-family: Dubai, serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 2.2vmin;
+            line-height: 2.2vmin;
+            /* or 100% */
+
+
+            color: #FFFFFF;
 
         }
 
@@ -561,12 +1008,131 @@
            </div>
            <br>
            <div id="o">
-               1
+               <p style="padding-left: 30%;font-size:2.5vh">1</p>
            </div>
            <br>
            <div id="p">
+               The Idea
+           </div>
+           <br>
+           <div id="q">
+               all great companies originally began as a great idea
+           </div>
+           <br>
+           <div id="r">
+               <p style="padding-left:30%;font-size:2.5vh">2</p>
+           </div>
+           <br>
+           <div id="s">
+               The Effort
+           </div>
+           <br>
+           <div id="t">
+               execution is 90% of the battle
+           </div>
+           <br>
+           <div id="u">
+               <p style="padding-left:30%;font-size:2.5vh">3</p>
+           </div>
+           <br>
+           <div id="v">
+               The Capital
+           </div>
+           <br>
+           <div id="w">
+               if we do this, we do this right; with a license, website and/or app
+           </div>
+
+       </div>
+       <div class="flex-center position-ref full-height " style="width:100%; height:15%;background: #004273;">
+           <img src="{{url('/assets/top.png ')}}" alt="" style="width:100%;height:10.5vh;">
+       </div>
+       <div class="flex-center position-ref full-height " style="width:100%; height:100%;background: linear-gradient(180deg, #004273 0%, #0088E9 100%);;">
+           <div id="x">
+               HOW THIS WORKS
+           </div>
+           <br>
+           <div id="y">
 
            </div>
+           <br>
+           <div id="z">
+               <img src="{{url('/assets/Technical-Expertise.png ')}}" alt="" style="width:5.3vw;height:9.5vh;">
+           </div>
+           <br>
+           <div id="aa">
+               We bring the arms and the legs
+           </div>
+           <br>
+           <div id="ab">
+               <img src="{{url('/assets/Regulatory-guidance.png ')}}" alt="" style="width:5.3vw;height:9.5vh;">
+           </div>
+           <br>
+           <div id="ac">
+               <img src="{{url('/assets/Marketing.png ')}}" alt="" style="width:5.3vw;height:9.5vh;">
+           </div>
+           <br>
+           <div id="ad">
+               <img src="{{url('/assets/Operational-Support.png ')}}" alt="" style="width:5.3vw;height:9.5vh;">
+           </div>
+           <br>
+           <div id="ae">
+               <img src="{{url('/assets/Sales-Network.png ')}}" alt="" style="width:5.3vw;height:9.5vh;">
+           </div>
+           <br>
+           <div id="af">
+               <img src="{{url('/assets/Investor-Connections.png ')}}" alt="" style="width:5.3vw;height:9.5vh;">
+           </div>
+           <br>
+           <div id="ag">
+               Technical Expertise
+           </div>
+           <br>
+           <div id="ah">
+               Guidance on how to build features and functionality for scalable, world-class products and services.
+           </div>
+           <br>
+           <div id="ai">
+               Regulatory Guidance
+           </div>
+           <br>
+           <div id="aj">
+               Setting up a company in the UAE is harder than it should be, so let us help make this as easy for you as possible.
+           </div>
+           <br>
+           <div id="ak">
+               Marketing & PR support
+           </div>
+           <br>
+           <div id="al">
+               You need to be featured in the newspaper? Need an interview on the radio? Need help with running ad campaigns? We’ve got you. Anything marketing, we’ve got you.
+           </div>
+           <br>
+           <div id="am">
+               Operational Support
+           </div>
+           <br>
+           <div id="an">
+               Run surveys on Lock&Stock for market research, utilise our Jobs platform for recruiting, or our Offers platform for promotion - all for free
+           </div>
+           <br>
+           <div id="ao">
+               Sales Network
+           </div>
+           <br>
+           <div id="ap">
+               With contacts and connections at all top companies in the UAE across the F&B, Retail, Entertainment and Education sectors, we'll open the right doors to help you sell your product.
+           </div>
+           <br>
+           <div id="aq">
+               Investor Connections
+           </div>
+           <br>
+           <div id="ar">
+               Once your startup reaches the next level, we'll get you in the door to million dollar meetings
+           </div>
+       </div>
+       <div  class="flex-center position-ref full-height " style="width:100%; height:100%;">
 
        </div>
    </body>
